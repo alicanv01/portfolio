@@ -1,0 +1,198 @@
+body {
+    background-color: #222;
+    color: white;
+
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+.v-bg {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    
+}
+
+.filtre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(0deg, #222 0%, #222 10%, rgba(34, 34, 34, 0.00) 200%);
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+}
+
+@keyframes slideL {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+
+@keyframes slideR {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.slideR {
+  overflow: hidden;
+  gap: 30px;
+  white-space: nowrap;
+ 
+}
+
+.slideR:hover .slide-1 {
+  animation-play-state: paused;
+}
+
+.slide-1 {
+  display: inline-block;
+  animation: 60s slideR infinite linear;
+}
+
+.silde1-content {
+  padding: 0 0.5em;
+}
+
+
+.slideL {
+  overflow: hidden;
+  gap: 30px;
+  white-space: nowrap;
+  position: relative;
+  margin: 0.2rem;
+}
+
+.slideL:hover .slide-1 {
+  animation-play-state: paused;
+}
+
+.slideL .slide-1 {
+  display: inline-block;
+  animation: 100s slideL infinite linear;
+}
+.slide-top{
+
+  
+  width: 100vw;
+  display: flex;overflow: hidden;
+  flex-direction: column;
+  
+}
+
+
+.slide-projet-card{
+  width: 100vw;
+  display: flex;overflow: hidden;
+  flex-direction: column;
+
+}
+
+
+
+
+.v video{
+  width:200px;
+}
+
+
+
+.slide-projet-card1{
+  width: 100vw;
+  display: flex;overflow: hidden;
+  flex-direction: column;
+}
+
+
+input[type=text], textarea, input[type=email] {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #ffffff00;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 0px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+label{margin-right: 0px;
+  color:white;
+  margin-left: 0px;
+  width: 100%;}
+
+input[type=submit] {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #ffffff00;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 0px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+
+
+
+
+
+  cursor: pointer;
+}
+.css-input:focus {
+  outline:none;
+  border:hidden;
+}
+
+input[type=submit]:hover {
+  border-color: #000000;
+  background-color: #ffffff;
+  color:black;
+}
+
+.container {
+
+}
+
+:focus-visible {
+  outline: none;
+
+}
+
+footer {
+display: grid;
+
+}
+
+
+
+
+
+
+
+
