@@ -11,14 +11,14 @@ body {
 }
 
 
-.v-bg {
+.vBg { 
+  object-fit:cover;
     display: flex;
     width: 100vw;
-    height: 70vh;
-    
 }
 
 .filtre{
+  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ body {
     background: linear-gradient(0deg, #222 0%, #222 10%, rgba(34, 34, 34, 0.00) 200%);
     position: absolute;
     width: 100vw;
-    height: 70vh;
+  height: 100%;
 }
 
 @keyframes slideL {
@@ -120,7 +120,8 @@ body {
 
 
 input[type=text], textarea, input[type=email] {
-  padding: 5px;
+  display: flex;
+width: 100%;
   font-size: 16px;
   border-width: 1px;
   border-color: #CCCCCC;
@@ -128,8 +129,8 @@ input[type=text], textarea, input[type=email] {
   color: #ffffff;
   border-style: solid;
   border-radius: 0px;
-  width: 100%;
-  padding: 12px;
+ 
+ 
   margin-top: 6px;
   margin-bottom: 16px;
   margin-right: 0px;
@@ -150,7 +151,7 @@ input[type=submit] {
   color: #ffffff;
   border-style: solid;
   border-radius: 0px;
-  width: 100%;
+ 
   padding: 12px;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -175,9 +176,7 @@ input[type=submit]:hover {
   color:black;
 }
 
-.container {
 
-}
 
 :focus-visible {
   outline: none;
@@ -185,8 +184,13 @@ input[type=submit]:hover {
 }
 
 footer {
-display: grid;
-
+display: flex;
+width: 100%;
+justify-content:space-between;
+padding: 80px;
+}
+.container-form{
+  width: 50%;
 }
 
 
@@ -196,3 +200,6 @@ display: grid;
 
 
 
+.sectionTop {
+  position: relative;
+}
