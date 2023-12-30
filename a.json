@@ -1,0 +1,76 @@
+{
+    "gif": {
+        "id1": {
+            "type": "gif",
+            "title": "google Animation 1",
+            "link": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/e7a11f68306231.5b58520d159a3.gif"
+        },
+        "id2": {
+            "type": "gif",
+            "title": "duo Animation 2",
+            "link": "https://cdn.dribbble.com/users/1161517/screenshots/3880662/duologo__1.gif"
+        },
+        "id3": {
+            "type": "gif",
+            "title": "slack Animation 3",
+            "link": "https://i.pinimg.com/originals/90/a4/fc/90a4fce878835ab69b13c6166136b85d.gif"
+        },
+        "id4": {
+            "type": "gif",
+            "title": "spirit Animation 4",
+            "link": "https://i.pinimg.com/originals/81/41/1a/81411a1752095822465aefc60d37a662.gif"
+        },
+        "id5": {
+            "type": "gif",
+            "title": "spaceman Animation 5",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id6": {
+            "type": "gif",
+            "title": "spaceman Animation 6",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id7": {
+            "type": "gif",
+            "title": "spaceman Animation 7",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id8": {
+            "type": "gif",
+            "title": "spaceman Animation 8",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id9": {
+            "type": "gif",
+            "title": "spaceman Animation 9",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id10": {
+            "type": "gif10",
+            "title": "spaceman Animation 10",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        },
+        "id11": {
+            "type": "gif",
+            "title": "spaceman Animation 11",
+            "link": "https://cdn.svgator.com/images/2021/08/logo-animation-example-conversable.gif"
+        }
+    },
+    "slideContent": {
+        "a0": "HTML",
+        "a1": "CSS",
+        "a2": "JS",
+        "a3": "SSG",
+        "a4": "webdev",
+        "a5": "animation ",
+        "a6": "UI/UX",
+        "a7": "3D",
+        "a8": "AFTER EFFECT",
+        "a9": "LOGO",
+        "a10": "MAQUETTE SITE WEB",
+        "a12": "MODELISATION",
+        "a13": "ADOBE",
+        "a14": "ANIMATION",
+        "a15": "BLENDER"
+    }
+}

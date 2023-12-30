@@ -1,6 +1,8 @@
 var projectCard = document.querySelectorAll(`.projetCard`);
 var slideProjetCardNbr = projectCard.length;
-console.log(slideProjetCardNbr);
+var text = document.querySelectorAll(`.text`);
+var textNbr = text.length;
+
 
 //for (let index = 0; index < slideProjetCardNbr; index++) {
 //    for (const key in data.gif) {
@@ -10,7 +12,11 @@ console.log(slideProjetCardNbr);
 //        }
 //    }
 //}       
-           
+
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch(
@@ -24,8 +30,35 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((data) => {
       // Assurez-vous que la clé "gif" existe dans le fichier JSON
-      if (data.gif) {
+      if (data.gif ) {
         // Boucle à travers chaque élément dans l'objet "gif"
+
+
+        for (const key in data.slideContent) {
+          if (data.slideContent.hasOwnProperty(key)) {
+            const a = data.slideContent[key];
+            console.log(a)
+            var text = document.querySelectorAll(`.text`);
+            var textNbr = text.length;
+         
+            console.log(textNbr);
+            
+            text.forEach(function(element, index){
+            
+         
+            var span=document.createElement('span')
+            span.className = "slide1-content";
+            element.appendChild(span);
+            span.innerHTML = `  ${a}  `;
+            }
+            );
+
+
+          }
+        }
+
+
+
 
         for (const key in data.gif) {
           if (data.gif.hasOwnProperty(key)) {
